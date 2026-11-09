@@ -1,0 +1,10 @@
+{
+  "id": "phone_2",
+  "bootId": "a1b2c3d4",
+  "action": "flag.move",
+  "args": {
+    "leaseId": "gesture_1",
+    "sequence": 1,
+    "direction": "raising"
+  }
+}

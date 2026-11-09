@@ -1,0 +1,91 @@
+{
+  "apiVersion": 1,
+  "bootId": "a1b2c3d4",
+  "revision": 10,
+  "uptimeMs": 5000,
+  "mode": "automatic",
+  "app": {
+    "online": true
+  },
+  "slave": {
+    "connected": true,
+    "fresh": true,
+    "ageMs": 20
+  },
+  "sensors": {
+    "fresh": true,
+    "color": "RED",
+    "ir": false,
+    "joyY": 2048,
+    "sound": {
+      "sequence": 3,
+      "lastTriggerAgeMs": 750,
+      "detected": true
+    }
+  },
+  "outputs": {
+    "fountain": {
+      "enabled": true,
+      "color": "RED"
+    },
+    "building": {
+      "enabled": true
+    },
+    "rgb": {
+      "enabled": false,
+      "effect": "cycle"
+    },
+    "relays": {
+      "known": true,
+      "desired": 0,
+      "confirmed": 0,
+      "pending": false
+    }
+  },
+  "audio": {
+    "ready": true,
+    "requested": false,
+    "state": "stopped",
+    "trackId": null,
+    "volumePercent": 83,
+    "completionSequence": 0,
+    "lastError": null
+  },
+  "combined": {
+    "state": "off"
+  },
+  "motor": {
+    "direction": "stopped",
+    "owner": "none",
+    "leaseRemainingMs": 0,
+    "sequence": 0,
+    "positionPercent": null
+  },
+  "capabilities": {
+    "wifi": true,
+    "bluetooth": false,
+    "flagApp": true,
+    "flagPosition": false,
+    "audioPause": true,
+    "audioVolume": true,
+    "autoNarration": false,
+    "phonePlayback": false,
+    "tracks": [
+      {
+        "id": 1,
+        "title": "Track 1"
+      },
+      {
+        "id": 2,
+        "title": "Track 2"
+      }
+    ]
+  },
+  "logs": [
+    {
+      "sequence": 1,
+      "code": 0,
+      "message": "Boot"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+**/.build/
+**/.tools/
+**/__pycache__/
+**/.dart_tool/
+**/build/
+**/.env
+**/.env.*
+!**/.env.example

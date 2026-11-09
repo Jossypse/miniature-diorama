@@ -1,0 +1,7 @@
+{
+  "apiVersion": 1,
+  "error": {
+    "code": "MODE_REJECTED",
+    "message": "Switch to manual mode"
+  }
+}

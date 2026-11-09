@@ -1,0 +1,9 @@
+{
+  "apiVersion": 1,
+  "bootId": "a1b2c3d4",
+  "id": "phone_1",
+  "status": "pending",
+  "reason": null,
+  "acceptedAtMs": 5000,
+  "finishedAtMs": null
+}

@@ -1,0 +1,9 @@
+{
+  "id": "phone_1",
+  "bootId": "a1b2c3d4",
+  "action": "light.set",
+  "args": {
+    "target": "fountain",
+    "enabled": true
+  }
+}
